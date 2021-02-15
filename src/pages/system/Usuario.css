@@ -1,0 +1,345 @@
+@import "../../index.css";
+
+body {
+}
+
+.usuario-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  flex-direction: column;
+}
+
+.usuario-search-container {
+  display: flex;
+  width: 100%;
+  margin: 1rem;
+}
+
+.usuario-search-field-option {
+  display: flex;
+  width: 15%;
+  margin-right: 1rem;
+}
+
+.usuario-search-field-anywhere {
+  display: flex;
+  width: 15%;
+  margin-right: 1rem;
+}
+
+.usuario-search-field-text {
+  display: flex;
+  width: 70%;
+  margin-right: 1rem;
+}
+
+.usuario-search-button-insert {
+  display: flex;
+  width: 20%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 2rem;
+}
+
+.usuario-table-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 1rem;
+  overflow-y: auto;
+  height: 80vh;
+  border: 0.1rem solid var(--system-color-first);
+}
+
+.table-data th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.table-data {
+  border: 5px;
+  font-size: 1.1rem;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: var(--table-color-first);
+}
+
+.table-data td,
+.table-data th {
+  text-align: center;
+  padding: 8px;
+}
+
+.table-data thead th {
+  color: var(--font-color-first);
+  background-color: var(--color-dark);
+}
+
+.table-data tr:nth-child(even) {
+  background-color: var(--table-color-second);
+}
+
+.table-data tr:hover {
+  background-color: var(--table-color-third);
+  color: var(--font-color-first);
+}
+
+.table-button {
+  width: 30%;
+}
+
+.table-button-container {
+  display: flex;
+}
+
+.table-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-active,
+.icon-inactive {
+  font-size: 1.5rem;
+}
+
+.icon-active {
+  color: var(--color-success-active);
+}
+
+.icon-inactive {
+  color: var(--color-danger-active);
+}
+
+/* MODAL MOVEMENT */
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-container-show {
+  visibility: visible;
+}
+
+.modal-container-hidden {
+  visibility: hidden;
+}
+
+.modal-content {
+  background-color: var(--system-color-base);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50rem;
+  border-radius: 1rem;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.modal-header-title {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  padding-left: 1rem;
+}
+
+.modal-header-title {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  padding-left: 1rem;
+}
+
+.modal-header-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+}
+
+.modal-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.modal-form-action-show {
+  display: flex;
+}
+
+.modal-form-action-hidden {
+  display: none;
+}
+
+.modal-form-button-container {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.modal-form-field-show {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.modal-form-field-hidden {
+  display: none;
+}
+
+.modal-form-button-show {
+  display: flex;
+}
+
+.modal-form-button-hidden {
+  display: none;
+}
+
+.modal-form-field-error {
+  display: flex;
+  width: 81%;
+  align-self: flex-end;
+  margin-top: -15px;
+  padding: 0;
+}
+
+.modal-form-error-show {
+  display: flex;
+}
+
+.modal-form-error-hidden {
+  display: flex;
+}
+
+.modal-form-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  opacity: 0.6;
+  font-size: 1.7rem;
+}
+
+/* ACCESS RELEASE */
+.modal-form-acess-release-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.table-data-acess-release th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.table-data-acess-release {
+  font-size: 1.1rem;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: var(--table-color-first);
+  border: 0.1rem solid var(--system-color-first);
+}
+
+.table-data-acess-release td,
+.table-data-acess-release th {
+  text-align: center;
+  padding: 8px;
+  vertical-align: middle;
+}
+
+.table-data-acess-release thead th {
+  color: var(--font-color-first);
+  background-color: var(--color-dark);
+}
+
+.table-data-acess-release tr:nth-child(even) {
+  background-color: var(--table-color-second);
+}
+
+.table-data-acess-release tr:hover {
+  background-color: var(--table-color-third);
+  color: var(--font-color-first);
+}
+
+.table-data-acess-release-option {
+  width: 10%;
+}
+
+.table-data-acess-release-name {
+  width: 50%;
+}
+
+.form-table-legend-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-table-legend {
+  display: flex;
+  font-size: 2rem;
+}
+
+.icon-noAction {
+  color: var(--color-dark-active);
+  font-size: 2.5rem;
+}
+
+.icon-noRelease {
+  color: var(--color-secondary-active);
+  font-size: 2.5rem;
+}
+
+.icon-release {
+  color: var(--color-warning-active);
+  font-size: 2.5rem;
+}
+
+.hidden {
+  display: none;
+}

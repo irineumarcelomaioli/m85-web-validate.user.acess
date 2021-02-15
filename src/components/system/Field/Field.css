@@ -1,0 +1,73 @@
+@import "../../../index.css";
+
+.field-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.field-direction-column {
+  flex-direction: column;
+}
+
+.field-direction-row {
+  flex-direction: row;
+}
+
+.field-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.field-input-row,
+.field-select-row {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  padding-right: 1rem;
+}
+
+.field-select-row {
+  padding-right: 0;
+}
+
+.field-input-error {
+  display: flex;
+  width: 100%;
+  margin-top: -5px;
+}
+
+.field-label {
+  display: flex;
+  width: auto;
+  padding: 0 0.5rem 0.2rem 0.5rem;
+}
+
+.field-label-row {
+  width: 15%;
+  text-align: right;
+}
+
+.field-composite {
+  display: flex;
+  flex-direction: row;
+}
+
+.field-composite-label-row {
+  width: 17%;
+  text-align: right;
+}
+
+.field-composite-code {
+  display: flex;
+  width: 10%;
+  padding-right: 0.5rem;
+}
+
+.field-composite-description {
+  display: flex;
+  width: 90%;
+}

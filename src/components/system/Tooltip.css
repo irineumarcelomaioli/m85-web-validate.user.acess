@@ -1,0 +1,60 @@
+@import "../../index.css";
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+
+  /* Position the tooltip */
+  position: absolute;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+.tooltip-primary {
+  background-color: var(--color-primary);
+  color: var(--font-color-first);
+}
+
+.tooltip-secondary {
+  background-color: var(--color-secondary);
+  color: var(--font-color-second);
+}
+
+.tooltip-success {
+  background-color: var(--color-success);
+  color: var(--font-color-first);
+}
+
+.tooltip-danger {
+  background-color: var(--color-danger);
+  color: var(--font-color-first);
+}
+
+.tooltip-warning {
+  background-color: var(--color-warning);
+  color: var(--font-color-second);
+}
+
+.tooltip-info {
+  background-color: var(--color-info);
+  color: var(--font-color-second);
+}
+
+.tooltip-light {
+  background-color: var(--color-light);
+  color: var(--font-color-second);
+}
+
+.tooltip-dark {
+  background-color: var(--color-dark);
+  color: var(--font-color-first);
+}

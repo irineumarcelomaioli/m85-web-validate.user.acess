@@ -1,0 +1,87 @@
+@import "./Reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Nova+Flat&family=Roboto&display=swap");
+
+:root {
+  --font-family-title: "Nova Flat", cursive;
+  --font-family-text: "Roboto", sans-serif;
+
+  --system-color-base: #ffffff;
+  --system-color-first: #373737;
+  --system-color-second: #96858f;
+  --system-color-third: #6d7993;
+  --system-color-fourth: #9099a2;
+
+  --table-color-first: rgb(252, 252, 252);
+  --table-color-second: rgb(245, 245, 245);
+  --table-color-third: rgb(50, 50, 50);
+
+  --color-primary: #4484ce;
+  --color-secondary: #cdcdcd;
+  --color-success: #02c8a7;
+  --color-danger: #f53240;
+  --color-warning: #f9be02;
+  --color-info: #88bbd6;
+  --color-light: #f0f0f0;
+  --color-dark: #414141;
+
+  --color-primary-active: #3a70ad;
+  --color-secondary-active: #b9b9b9;
+  --color-success-active: #00af92;
+  --color-danger-active: #d12b36;
+  --color-warning-active: #d1a102;
+  --color-info-active: #7097ac;
+  --color-light-active: #cccccc;
+  --color-dark-active: #000000;
+
+  --font-size-large: 3rem;
+  --font-size-medium: 2rem;
+  --font-size-small: 1.5rem;
+  --font-size-tiny: 1rem;
+
+  --font-color-first: #ffffff;
+  --font-color-second: #000000;
+}
+
+body {
+  font-family: var(--font-family-text);
+}
+
+.background-primary {
+  background-color: var(--color-primary);
+  color: var(--font-color-first);
+}
+
+.background-secondary {
+  background-color: var(--color-secondary);
+  color: var(--font-color-second);
+}
+
+.background-success {
+  background-color: var(--color-success);
+  color: var(--font-color-first);
+}
+
+.background-danger {
+  background-color: var(--color-danger);
+  color: var(--font-color-first);
+}
+
+.background-warning {
+  background-color: var(--color-warning);
+  color: var(--font-color-second);
+}
+
+.background-info {
+  background-color: var(--color-info);
+  color: var(--font-color-second);
+}
+
+.background-light {
+  background-color: var(--color-light);
+  color: var(--font-color-second);
+}
+
+.background-dark {
+  background-color: var(--color-dark);
+  color: var(--font-color-first);
+}

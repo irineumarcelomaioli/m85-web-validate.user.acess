@@ -1,0 +1,74 @@
+@import "../../../index.css";
+
+.content-text {
+  width: 100%;
+  padding-top: 0.5rem;
+}
+
+.content-font-primary {
+  color: var(--color-primary);
+}
+
+.content-font-secondary {
+  color: var(--color-secondary);
+}
+
+.content-font-success {
+  color: var(--color-success);
+}
+
+.content-font-danger {
+  color: var(--color-danger);
+}
+
+.content-font-warning {
+  color: var(--color-warning);
+}
+
+.content-font-info {
+  color: var(--color-info);
+}
+
+.content-font-light {
+  color: var(--color-light);
+}
+
+.content-font-dark {
+  color: var(--color-dark);
+}
+
+.content-font-size-large {
+  font-size: var(--font-size-large);
+}
+
+.content-font-size-medium {
+  font-size: var(--font-size-medium);
+}
+
+.content-font-size-small {
+  font-size: var(--font-size-small);
+}
+
+.content-font-size-tiny {
+  font-size: var(--font-size-tiny);
+}
+
+.content-title {
+  font-family: var(--font-family-title);
+}
+
+.content-align-center {
+  text-align: center;
+}
+
+.content-align-left {
+  text-align: left;
+}
+
+.content-align-right {
+  text-align: right;
+}
+
+.content-bold {
+  font-weight: bold;
+}

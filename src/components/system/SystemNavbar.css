@@ -1,0 +1,80 @@
+@import "../../index.css";
+
+.nav-container {
+  background-color: var(--system-color-first);
+  color: var(--font-color-first);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  position: fixed;
+}
+
+.nav-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 10%;
+}
+
+.nav-logo {
+  width: 100%;
+}
+
+.nav-title {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-user-name {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-close-container,
+.nav-back-container {
+  width: 5%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-close,
+.nav-back {
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--font-color-first);
+  background-color: none;
+}
+
+.erroServer-show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.2rem;
+}
+
+.erroServer-hidden {
+  display: none;
+}
+
+.navbar-container {
+  width: 100%;
+  height: 2rem;
+  z-index: 2;
+  position: fixed;
+}
