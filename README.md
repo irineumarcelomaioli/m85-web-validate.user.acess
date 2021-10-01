@@ -2,9 +2,7 @@ WEB - SISTEMA DE VALIDAÇÃO DE ACESSO DE USUÁRIO.
 
 - Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-  - React - template: typescript
-  - Html
-  - Css
+  - React, Typescript, Html, Css
 
 Projeto
 
